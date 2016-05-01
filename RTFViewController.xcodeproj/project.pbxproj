@@ -10,6 +10,8 @@
 		55DE0E221CD68B1B0036447D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE0E211CD68B1B0036447D /* AppDelegate.swift */; };
 		55DE0E241CD68B1B0036447D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DE0E231CD68B1B0036447D /* Assets.xcassets */; };
 		55DE0E271CD68B1B0036447D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DE0E251CD68B1B0036447D /* MainMenu.xib */; };
+		55DE0E301CD68B8C0036447D /* RTFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE0E2E1CD68B8C0036447D /* RTFViewController.swift */; };
+		55DE0E311CD68B8C0036447D /* RTFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DE0E2F1CD68B8C0036447D /* RTFViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		55DE0E231CD68B1B0036447D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DE0E261CD68B1B0036447D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		55DE0E281CD68B1B0036447D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DE0E2E1CD68B8C0036447D /* RTFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTFViewController.swift; sourceTree = "<group>"; };
+		55DE0E2F1CD68B8C0036447D /* RTFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTFViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				55DE0E231CD68B1B0036447D /* Assets.xcassets */,
 				55DE0E251CD68B1B0036447D /* MainMenu.xib */,
 				55DE0E281CD68B1B0036447D /* Info.plist */,
+				55DE0E2E1CD68B8C0036447D /* RTFViewController.swift */,
+				55DE0E2F1CD68B8C0036447D /* RTFViewController.xib */,
 			);
 			path = RTFViewController;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 			files = (
 				55DE0E241CD68B1B0036447D /* Assets.xcassets in Resources */,
 				55DE0E271CD68B1B0036447D /* MainMenu.xib in Resources */,
+				55DE0E311CD68B8C0036447D /* RTFViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DE0E221CD68B1B0036447D /* AppDelegate.swift in Sources */,
+				55DE0E301CD68B8C0036447D /* RTFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

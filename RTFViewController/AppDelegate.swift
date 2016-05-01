@@ -12,10 +12,13 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
 	@IBOutlet weak var window: NSWindow!
-
+	var viewController : RTFViewController?
+	
 
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		// Insert code here to initialize your application
+		let theViewController = RTFViewController(filePath: "/Users/uli/Desktop/Test.rtf")
+		//theViewController!.editable = true
+		window.contentView = theViewController!.view;
 	}
 
 	func applicationWillTerminate(aNotification: NSNotification) {
