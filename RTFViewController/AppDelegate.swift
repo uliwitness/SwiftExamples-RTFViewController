@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
 		viewController = RTFViewController(filePath: "/Users/uli/Desktop/Test.rtf")
-		//theViewController!.editable = true
+		//viewController!.editable = true
 		window.contentView = viewController!.view;
 	}
 
