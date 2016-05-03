@@ -16,9 +16,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	
 
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		let theViewController = RTFViewController(filePath: "/Users/uli/Desktop/Test.rtf")
+		viewController = RTFViewController(filePath: "/Users/uli/Desktop/Test.rtf")
 		//theViewController!.editable = true
-		window.contentView = theViewController!.view;
+		window.contentView = viewController!.view;
 	}
 
 	func applicationWillTerminate(aNotification: NSNotification) {
