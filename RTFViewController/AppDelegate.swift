@@ -15,13 +15,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	var viewController : RTFViewController?
 	
 
-	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		viewController = RTFViewController(filePath: "/Users/uli/Desktop/Test.rtf")
+	func applicationDidFinishLaunching( _ aNotification: Notification) {
+		guard let rtfFilePath = Bundle.main.path(forResource: "Test", ofType: "rtf") else { return }
+		viewController = RTFViewController(filePath: rtfFilePath)
+//		viewController = RTFViewController(filePath: "/Users/uli/Desktop/Test.rtf")
 		//viewController!.editable = true
 		window.contentView = viewController!.view;
 	}
 
-	func applicationWillTerminate(aNotification: NSNotification) {
+	func applicationWillTerminate( _ aNotification: Notification) {
 		// Insert code here to tear down your application
 	}
 

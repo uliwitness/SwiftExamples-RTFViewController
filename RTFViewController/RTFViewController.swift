@@ -27,9 +27,13 @@ public class RTFViewController: NSViewController {
 	{
         super.viewDidLoad()
 		
-		rtfView.editable = editable;
-		let rtfData = NSData(contentsOfFile: filePath)
-		rtfView.replaceCharactersInRange( NSRange(location:0, length: 0), withRTF: rtfData! )
+		do {
+			rtfView.isEditable = editable;
+			let rtfData = try Data(contentsOf: URL(fileURLWithPath:filePath))
+			rtfView.replaceCharacters(in: NSRange(location:0, length: 0), withRTF: rtfData )
+		} catch {
+			print("Error: \(error)")
+		}
     }
     
 }

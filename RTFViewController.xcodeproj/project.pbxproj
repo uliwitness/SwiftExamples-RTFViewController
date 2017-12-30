@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55D6993A1FF859F200CA5BB6 /* Test.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55D699391FF859F200CA5BB6 /* Test.rtf */; };
 		55DE0E221CD68B1B0036447D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE0E211CD68B1B0036447D /* AppDelegate.swift */; };
 		55DE0E241CD68B1B0036447D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DE0E231CD68B1B0036447D /* Assets.xcassets */; };
 		55DE0E271CD68B1B0036447D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DE0E251CD68B1B0036447D /* MainMenu.xib */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55D699391FF859F200CA5BB6 /* Test.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Test.rtf; sourceTree = "<group>"; };
 		55DE0E1E1CD68B1B0036447D /* RTFViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTFViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DE0E211CD68B1B0036447D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55DE0E231CD68B1B0036447D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				55DE0E281CD68B1B0036447D /* Info.plist */,
 				55DE0E2E1CD68B8C0036447D /* RTFViewController.swift */,
 				55DE0E2F1CD68B8C0036447D /* RTFViewController.xib */,
+				55D699391FF859F200CA5BB6 /* Test.rtf */,
 			);
 			path = RTFViewController;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				55DE0E241CD68B1B0036447D /* Assets.xcassets in Resources */,
 				55DE0E271CD68B1B0036447D /* MainMenu.xib in Resources */,
+				55D6993A1FF859F200CA5BB6 /* Test.rtf in Resources */,
 				55DE0E311CD68B8C0036447D /* RTFViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +200,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -233,6 +238,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -279,6 +285,7 @@
 				55DE0E2D1CD68B1B0036447D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
